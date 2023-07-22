@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+
+:root {
+  --font001: 'Passion One', cursive;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+header h1 {
+  font-family: var(--font001);
+  font-variant: small-caps;
+}
+header p {
+  padding-bottom: 50px;
+}
+header a {
+  color: white;
+}
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+article {
+  min-width: 400px;
+  max-width: 800px;
+  padding-left: 20px;
+}
+
+pre {
+  padding: 15px;
+  line-height: 15vh;
+  white-space: pre-line;
+  font-size: 5vw;
+  font-family: var(--font001);
+  font-weight: bold;
+}
+
+section#img1 {
+  background: white url(../src/imagens/background001.jpg) left center fixed;
+  padding: 15px;
+  background-size: cover;
+  min-height: 450px;
+}
+section#img1 pre {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.282);
+  display: inline-block;
+}
+section#img2 {
+  background: white url(../src/imagens/background002.jpg) center center fixed;
+  padding: 15px;
+  background-size: cover;
+  min-height: 450px;
+}
+section#img2 pre {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.282);
+  display: inline-block;
+}
+
+footer {
+  background-color: black;
+  padding: 14px;
+}
+footer p,
+a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+footer a {
+  font-weight: bold;
+}

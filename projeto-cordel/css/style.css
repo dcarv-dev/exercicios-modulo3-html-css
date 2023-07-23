@@ -58,6 +58,7 @@ section#img1 {
   padding: 15px;
   background-size: cover;
   min-height: 450px;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.36);
 }
 section#img1 pre {
   color: white;
@@ -70,6 +71,7 @@ section#img2 {
   padding: 15px;
   background-size: cover;
   min-height: 450px;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.36);
 }
 section#img2 pre {
   color: white;

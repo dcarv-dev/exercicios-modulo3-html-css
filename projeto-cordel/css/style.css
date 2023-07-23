@@ -18,15 +18,18 @@ header {
   color: white;
   padding-top: 50px;
 }
+
 header h1 {
   font-family: var(--font-title);
-  font-size: 10vw;
+  font-size: 8vw;
   font-variant: small-caps;
 }
+
 header p {
   padding-bottom: 50px;
   font-family: var(--font001);
 }
+
 header a {
   color: white;
 }
@@ -43,14 +46,15 @@ article {
 
 pre {
   padding: 15px;
-  line-height: 20vh;
+  line-height: 10.5vh;
   white-space: pre-line;
-  font-size: 3.5vw;
+  font-size: 3.2vw;
   font-family: var(--font-cursive);
+  font-weight: lighter;
 }
 
 section#img1 {
-  background: white url(../src/imagens/background001.jpg) left center fixed;
+  background: white url(../src/imagens/background001.jpg) right center fixed;
   padding: 15px;
   background-size: cover;
   min-height: 450px;
@@ -58,6 +62,7 @@ section#img1 {
 section#img1 pre {
   color: white;
   background-color: rgba(0, 0, 0, 0.282);
+  text-shadow: 2px 2px 2px black;
   display: inline-block;
 }
 section#img2 {
@@ -79,8 +84,7 @@ footer {
 }
 footer p,
 a {
-  
-    color: white;
+  color: white;
   text-align: center;
   text-decoration: none;
   font-size: 1.1em;
